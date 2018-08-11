@@ -57,6 +57,6 @@ export default class Root extends Component {
     )
   }
   props: {
-    store: Object
+    store: any
   }
 }

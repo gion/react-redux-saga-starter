@@ -19,7 +19,7 @@ export default function DisplayStars (props) {
 }
 
 DisplayStars.propTypes = {
-  starCount: PropTypes.string,
+  starCount: PropTypes.number,
   increment: PropTypes.func,
   decrement: PropTypes.func
 }

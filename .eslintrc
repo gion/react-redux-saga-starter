@@ -1,4 +1,16 @@
 {
-  "extends": ["react-app", "plugin:jsx-a11y/recommended", "standard", "standard-react"],
-  "plugins": ["jsx-a11y"]
+  "extends": [
+    "react-app",
+    "plugin:jsx-a11y/recommended",
+    "standard",
+    "standard-react",
+    "plugin:flowtype/recommended"
+  ],
+  "plugins": [
+    "jsx-a11y",
+    "flowtype"
+  ],
+  "rules": {
+    "flowtype/no-types-missing-file-annotation": 0
+  }
 }
